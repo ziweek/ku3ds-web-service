@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import AnimationMoon from "../components/animation/animation-moon";
 import Layout from "../components/layout";
+import ContentPlanet from "../components/main/content-planet";
 
-export default function Invitaion() {
+export default function Main() {
   return (
     <div>
       <Head>
@@ -13,8 +13,8 @@ export default function Invitaion() {
       </Head>
 
       <Layout>
-        <div className="object-cover">
-          <AnimationMoon />
+        <div className="bg-black">
+          <ContentPlanet />
         </div>
       </Layout>
     </div>

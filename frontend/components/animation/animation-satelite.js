@@ -4,15 +4,15 @@ import Lottie from "react-lottie-player";
 // Alternatively:
 // import Lottie from 'react-lottie-player/dist/LottiePlayerLight'
 
-import lottieJson from "../../public/animation-moon.json";
+import lottieJson from "../../public/animation-satelite.json";
 
-export default function AnimationMoon() {
+export default function AnimationSatelite() {
   return (
     <Lottie
       loop
       animationData={lottieJson}
       play
-      //   style={{ width: 150, height: 150 }}
+      //   style={{ width: 500, height: 500 }}
     />
   );
 }

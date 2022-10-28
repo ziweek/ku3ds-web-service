@@ -7,12 +7,5 @@ import Lottie from "react-lottie-player";
 import lottieJson from "../../public/animation-rocket.json";
 
 export default function AnimationRocket() {
-  return (
-    <Lottie
-      loop
-      animationData={lottieJson}
-      play
-      style={{ width: 500, height: 500 }}
-    />
-  );
+  return <Lottie loop animationData={lottieJson} play />;
 }
