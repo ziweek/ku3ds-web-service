@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import AnimationRocket from "../components/animation/animation-rocket";
 import Layout from "../components/layout";
+import ContentLaunch from "../components/main/content-launch";
+import ContentPlanet from "../components/main/content-planet";
+import Hero from "../components/main/hero";
 
-export default function Home() {
+export default function Main() {
   return (
     <div>
       <Head>
@@ -13,9 +15,10 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <div className="flex flex-col min-h-screen items-center justify-center ">
-          <AnimationRocket />
-          <h1>메인 페이지로 가기</h1>
+        <div className="bg-black">
+          <Hero />
+          <ContentLaunch />
+          <ContentPlanet />
         </div>
       </Layout>
     </div>

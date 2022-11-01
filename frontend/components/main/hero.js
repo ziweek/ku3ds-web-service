@@ -1,14 +1,17 @@
-import AnimationSatelite from "../animation/animation-satelite";
+import Image from "next/image";
+import ImgTiger from "../../public/tiger.jpeg";
 
 export default function Hero() {
   return (
     <>
       <section className="text-gray-500 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+          <Image src={ImgTiger} height={200} />
+          <br />
+          <br />
           <div className="text-center lg:w-2/3 w-full">
-            <AnimationSatelite />
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-              Microdosing synth tattooed vexillologist
+            <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
+              혹시 이 호랑이를 본 적이 있나요?
             </h1>
             <p className="mb-8 leading-relaxed">
               이런 오면 슬퍼하는 청춘이 지나고 있습니다. 한 이름과, 나는 쉬이
