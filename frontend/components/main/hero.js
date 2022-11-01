@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <>
       <section className="text-gray-500 body-font">
-        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
           <Image src={ImgTiger} height={200} />
           <br />
           <br />
@@ -14,11 +14,10 @@ export default function Hero() {
               혹시 이 호랑이를 본 적이 있나요?
             </h1>
             <p className="mb-8 leading-relaxed">
-              이런 오면 슬퍼하는 청춘이 지나고 있습니다. 한 이름과, 나는 쉬이
-              많은 강아지, 아스라히 가을로 멀리 거외다. 시인의 소학교 멀리 딴은
-              듯합니다. 다 덮어 아침이 봅니다. 프랑시스 나는 별 하나에 때
-              있습니다. 비둘기, 못 남은 하나에 이런 북간도에 까닭입니다. 새워
-              풀이 걱정도 하나에 까닭입니다.
+              파이빌에서 평화로운 나날을 보내던 호이와 구구는 어느 날 ‘우리를
+              찾아보라’는 쪽지를 남기고 사라졌습니다. ku-3ds 문 앞에서
+              기웃거리던 귀여운 모습이 눈에 선하네요. 메타버스 세계로 떠났다는
+              소문만 무성하고 행방은 묘연합니다.
             </p>
             <div className="flex justify-center"></div>
           </div>

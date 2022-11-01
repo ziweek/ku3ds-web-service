@@ -2,6 +2,7 @@ import AnimationMar from "../animation/animation-planet-mar";
 import AnimationMoon from "../animation/animation-planet-moon";
 import AnimationSaturn from "../animation/animation-planet-saturn";
 import AnimationNeptune from "../animation/animation-planet-neptune";
+import AnimationEarth from "../animation/animation-planet-earth";
 
 export default function ContentPlanet() {
   return (
@@ -16,36 +17,54 @@ export default function ContentPlanet() {
               <div className="h-1 w-20 bg-indigo-500 rounded"></div>
             </div>
             <p className="lg:w-1/2 w-full leading-relaxed">
-              인류의 얼음 불어 기쁘며, 속에 수 가는 기관과 하였으며, 교향악이다.
-              봄바람을 살았으며, 하여도 시들어 것이다. 노래하며 소리다.이것은
-              것이다.보라, 꽃 가진 동력은 있다. 불어 사라지지 유소년에게서
-              소금이라 피고, 구할 맺어, 품었기 곳으로 말이다. 가치를 광야에서
-              부패를 인생에 두기 생생하며, 힘차게 스며들어 피고 사막이다. 수
-              안고, 꽃이 풍부하게 보라.
+              이제 여러분은 파이빌 은하계로 떠나는 우주선에 탑승하셨습니다.
+              순조롭게 지구 밖으로 날아오릅니다. 가속도로 인한 압박이 가시고
+              눈을 떠보니 펼쳐진 놀라운 광경! 창문 밖으로 펼쳐질 아름다운 우주를
+              마음껏 눈에 담아주세요!
             </p>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/5 md:w-1/2 p-4">
               <div className="bg-gray-800 p-6 rounded-lg">
-                <AnimationMoon />
+                <AnimationEarth />
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
-                  SUBTITLE
+                <h3 className="font-pak tracking-widest text-indigo-500 text-lg font-medium title-font">
+                  안내부스
                 </h3>
-                <h2 className="text-lg font-medium title-font mb-4">
-                  Chichen Itza
+                <h2 className="font-pak text-2xl font-medium title-font mb-4">
+                  지구별
                 </h2>
                 <p className="leading-relaxed text-base">
-                  내 위에도 하나에 가을로 별을 아침이 위에 계십니다. 이름을
-                  라이너 어머니 벌써 듯합니다.
+                  숨어버린 호이와 구구를 찾으러 떠나시는 여러분께 상황을
+                  설명해드리고, 가상현실로 떠나는 우주선에 무사히 탑승하실 수
+                  있도록 도와드립니다! 앞으로 펼쳐질 여정이 위험하지 않도록
+                  주의사항에 귀를 기울여주세요
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/5 md:w-1/2 p-4">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <AnimationSaturn />
+                {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"> */}
+                <h3 className="font-pak tracking-widest text-indigo-500 text-lg font-medium title-font">
+                  비트세이버
+                </h3>
+                <h2 className="font-pak text-2xl font-medium title-font mb-4">
+                  토성
+                </h2>
+                <p className="leading-relaxed text-base">
+                  토성에 착륙한 여러분은 난관에 부딪힙니다. 리듬과 함께 내리는
+                  별 때문에 착륙한 자리에서 움직일 수가 없습니다. 리듬에 맞춰
+                  재빨리 광선검으로 별을 갈라서 안전한 곳으로 이동해주세요!
+                  무사히 이동하신 분들을 위한 상품도 준비되어있어요!
+                </p>
+              </div>
+            </div>
+            <div className="xl:w-1/5 md:w-1/2 p-4">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <AnimationMar />
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">
@@ -57,11 +76,12 @@ export default function ContentPlanet() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/5 md:w-1/2 p-4">
               <div className="bg-gray-800 p-6 rounded-lg">
-                <AnimationSaturn />
+                <AnimationMoon />
+
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">
@@ -73,11 +93,11 @@ export default function ContentPlanet() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/4 md:w-1/2 p-4">
+            <div className="xl:w-1/5 md:w-1/2 p-4">
               <div className="bg-gray-800 p-6 rounded-lg">
                 <AnimationNeptune />
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">
+                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">

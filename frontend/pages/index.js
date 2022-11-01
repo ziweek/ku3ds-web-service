@@ -18,7 +18,6 @@ export default function Main() {
         <div className="bg-black">
           <Hero />
           <ContentLaunch />
-          <ContentPlanet />
         </div>
       </Layout>
     </div>

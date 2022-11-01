@@ -1,47 +1,45 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 import ImgTitle from "../public/title.png";
+import AnimationCircle from "./animation/animation-circle";
 
 export default function Header() {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    // just trigger this so that the initial state
+    // is updated as soon as the component is mounted
+    // related: https://stackoverflow.com/a/63408216
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <>
-      <header className="bg-primary text-gray-600 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <Image src={ImgTitle} />
-          {/* <a className="flex title-font font-medium items-center mb-4 md:mb-0">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">KU-3DS</span>
-          </a> */}
-          {/* <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-gray-900">First Link</a>
-            <a className="mr-5 hover:text-gray-900">Second Link</a>
-            <a className="mr-5 hover:text-gray-900">Third Link</a>
-            <a className="mr-5 hover:text-gray-900">Fourth Link</a>
-          </nav> */}
-          {/* <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-            Button
-            <svg
-              fill="none"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button> */}
+      <header className="scroll bg-primary text-gray-600 body-font">
+        <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+          <div
+            className="absolute flex items-center justify-center w-3/4"
+            style={{ display: scrollY > 1 ? "none" : "block" }}
+          >
+            <AnimationCircle />
+          </div>
+          <div
+            className="static z-10 flex items-center justify-center"
+            style={{ height: scrollY > 1 ? 100 : 800 }}
+          >
+            <Image src={ImgTitle} style={{ width: scrollY > 1 ? 250 : 800 }} />
+          </div>
         </div>
       </header>
     </>

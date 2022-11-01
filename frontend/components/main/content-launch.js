@@ -1,35 +1,43 @@
-// // import AnimationRocket from "../animation/animation-rocket";
-// import AnimationEarth from "../animation/animation-planet-earth";
+import Image from "next/image";
+import Link from "next/link";
+import ImgRocket from "../../public/rocket.png";
+import AnimationButton from "../animation/animation-button";
+import AnimationUpper from "../animation/animation-upper";
 
 export default function ContentLaunch() {
   return (
     <>
       <section className="text-gray-600 body-font">
         <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-          {/* <img className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"> */}
-          {/* <AnimationRocket /> */}
+          <Image src={ImgRocket} height={300} />
+          <br />
+          <br />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
               Microdosing synth tattooed vexillologist
             </h1>
             <p className="mb-8 leading-relaxed">
-              같으며, 되려니와, 작고 낙원을 노래하며 이것이야말로 인간은
-              인도하겠다는 말이다. 이상 이것을 얼마나 우리는 역사를 충분히 길지
-              때까지 사막이다. 하는 든 아니한 사막이다.
+              백방으로 호이와 구구를 찾아다니던 테크서포터즈는 이제 여러분께
+              도움을 요청합니다. 여행자분을 준비시켜드리는 지구별, 파이빌
+              은하계로 떠나는 우주선, 빛나는 소리가 쏟아지는 토성, 두근두근
+              레이싱코스가 펼쳐진 화성을 지나 파란만장한 모험을 겪으며 발자취를
+              쫓다 보면 어느새 호이와 구구를 찾을 수 있을 거에요!
             </p>
-            <div className="flex justify-center">
-              {/* <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"> */}
-              {/* Button
-              </button> */}
+
+            <br />
+            <br />
+            <br />
+            <p className="text-white leading-relaxed">
+              버튼을 눌러서 찾으러 가기
+            </p>
+            <div className="flex justify-center rotate-180">
+              <AnimationUpper />
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <div className="flex justify-center">
+              <Link href="/planet">
+                <AnimationButton />
+              </Link>
+            </div>
           </div>
         </div>
       </section>
