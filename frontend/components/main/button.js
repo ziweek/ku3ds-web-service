@@ -21,7 +21,7 @@ export default function LaunchButton() {
         <div className="bg-primary container mx-auto flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in">
-              <p className="text-white leading-relaxed">
+              <p className="text-lg text-white leading-relaxed">
                 버튼을 눌러서 찾으러 가기
               </p>
             </div>
