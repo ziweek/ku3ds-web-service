@@ -11,9 +11,9 @@ export default function ContentLaunch() {
   // console.log(screenHeight);
 
   useEffect(() => {
+    const screenHeight = window.innerHeight * -1;
     AOS.init({
-      offset: -700,
-      anchorPlacement: "top-bottom",
+      offset: screenHeight,
       once: false,
     });
   });
@@ -33,7 +33,7 @@ export default function ContentLaunch() {
                 Microdosing synth tattooed vexillologist
               </h1>
             </div>
-            <div data-aos="fade-up">
+            <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
                 백방으로 호이와 구구를 찾아다니던 테크서포터즈는 이제 여러분께
                 도움을 요청합니다. 여행자분을 준비시켜드리는 지구별, 파이빌

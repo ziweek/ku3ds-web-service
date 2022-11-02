@@ -1,10 +1,10 @@
 import Image from "next/image";
-import ImgTiger from "../../public/tiger.jpeg";
+import ImgTitle from "../../public/title.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function Hero() {
+export default function Hero2() {
   useEffect(() => {
     const screenHeight = window.innerHeight * -1;
     AOS.init({
@@ -17,20 +17,19 @@ export default function Hero() {
     <>
       <section className="text-gray-500 body-font">
         <div className="bg-primary container mx-auto flex px-5 py-40 items-center justify-center flex-col">
-          <p>{AOS.offset}</p>
           <div data-aos="fade-up">
-            <Image src={ImgTiger} height={200} alt="tiger" />
+            <Image src={ImgTitle} height={200} alt="title" />
           </div>
 
           <br />
           <br />
           <div className="text-center lg:w-2/3 w-full">
-            <div data-aos="fade-in">
+            <div data-aos="fade-up">
               <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
                 혹시 이 호랑이를 본 적이 있나요?
               </h1>
             </div>
-            <div data-aos="fade-in" data-aos-duration="1500">
+            <div data-aos="fade-up">
               <p className="mb-8 leading-relaxed">
                 파이빌에서 평화로운 나날을 보내던 호이와 구구는 어느 날 ‘우리를
                 찾아보라’는 쪽지를 남기고 사라졌습니다. ku-3ds 문 앞에서

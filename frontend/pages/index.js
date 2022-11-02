@@ -2,6 +2,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import Hero from "../components/main/hero";
 import ContentLaunch from "../components/main/content-launch";
+import Hero2 from "../components/main/hero2";
 
 export default function Main() {
   return (
@@ -14,6 +15,7 @@ export default function Main() {
 
       <Layout>
         <div className="bg-black">
+          <Hero2 />
           <Hero />
           <ContentLaunch />
         </div>
