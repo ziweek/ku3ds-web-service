@@ -43,7 +43,7 @@ export default function ContentPlanet() {
                   <AnimationEarth />
                 </div>
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"> */}
-                <h3 className="font-pak tracking-widest text-indigo-500 text-lg font-medium title-font">
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   안내부스
                 </h3>
                 <h2 className="font-pak text-2xl font-medium title-font mb-4">
@@ -63,7 +63,7 @@ export default function ContentPlanet() {
                   <AnimationSaturn />
                 </div>
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"> */}
-                <h3 className="font-pak tracking-widest text-indigo-500 text-lg font-medium title-font">
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   비트세이버
                 </h3>
                 <h2 className="font-pak text-2xl font-medium title-font mb-4">
@@ -89,7 +89,7 @@ export default function ContentPlanet() {
                   <AnimationMar />
                 </div>
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/721x401" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
+                <h3 className="tracking-widest text-indigo-400 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">
@@ -116,7 +116,7 @@ export default function ContentPlanet() {
                 </div>
 
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/722x402" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
+                <h3 className="tracking-widest text-indigo-400 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">
@@ -142,7 +142,7 @@ export default function ContentPlanet() {
                   <AnimationNeptune />
                 </div>
                 {/* <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"> */}
-                <h3 className="tracking-widest text-indigo-500 text-lg font-medium title-font">
+                <h3 className="tracking-widest text-indigo-400 text-lg font-medium title-font">
                   SUBTITLE
                 </h3>
                 <h2 className="text-lg font-medium title-font mb-4">

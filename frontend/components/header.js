@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import Imglogo3ds from "../public/logo_3ds.png";
 
@@ -7,7 +8,9 @@ export default function Header() {
       <header className="scroll bg-black text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-row items-space justify-between">
           <div className="flex">
-            <Image src={Imglogo3ds} alt="title" height={30} />
+            <Link href="/home">
+              <Image src={Imglogo3ds} alt="title" height={30} />
+            </Link>
           </div>
           <div className="flex">
             <button>
