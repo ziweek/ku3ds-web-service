@@ -8,7 +8,7 @@ export default function Hero() {
   useEffect(() => {
     const screenHeight = window.innerHeight * -1;
     AOS.init({
-      offset: screenHeight + 200,
+      offset: screenHeight + 100,
       once: false,
     });
   });
