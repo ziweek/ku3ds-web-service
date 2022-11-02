@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="scroll bg-primary text-gray-600 body-font">
+      <header className="scroll bg-black text-gray-600 body-font">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
           <div
             className="absolute flex items-center justify-center w-3/4"
@@ -36,9 +36,15 @@ export default function Header() {
           </div>
           <div
             className="static z-10 flex items-center justify-center"
-            style={{ height: scrollY > 1 ? 100 : 800 }}
+            style={{
+              height: scrollY > 1 ? "5vh" : "100vh",
+            }}
           >
-            <Image src={ImgTitle} style={{ width: scrollY > 1 ? 250 : 800 }} />
+            <Image
+              src={ImgTitle}
+              style={{ width: scrollY > 1 ? 150 : 800 }}
+              alt="title"
+            />
           </div>
         </div>
       </header>

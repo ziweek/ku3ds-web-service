@@ -7,7 +7,7 @@
 }
 
 .bg-primary {
-  @apply bg-black;
+  @apply bg-slate-700;
 }
 
 .btn-project {
@@ -44,5 +44,5 @@ a {
 }
 
 p {
-  @apply text-slate-400;
+  @apply text-slate-200;
 }

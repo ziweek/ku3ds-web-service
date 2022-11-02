@@ -1,12 +1,28 @@
 import Image from "next/image";
 import ImgTiger from "../../public/tiger.jpeg";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Hero() {
+  useEffect(() => {
+    AOS.init({
+      // offset: -300,
+      duration: 300,
+      // anchorPlacement: "bottom-bottom",
+      // once: true,
+    });
+  });
+
   return (
     <>
       <section className="text-gray-500 body-font">
-        <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
-          <Image src={ImgTiger} height={200} />
+        <div className="bg-primary container mx-auto flex px-5 py-40 items-center justify-center flex-col">
+          <p>{AOS.offset}</p>
+          <div data-aos="fade-up">
+            <Image src={ImgTiger} height={200} alt="tiger" />
+          </div>
+
           <br />
           <br />
           <div className="text-center lg:w-2/3 w-full">

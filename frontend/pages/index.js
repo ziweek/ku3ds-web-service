@@ -1,9 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
 import Layout from "../components/layout";
-import ContentLaunch from "../components/main/content-launch";
-import ContentPlanet from "../components/main/content-planet";
 import Hero from "../components/main/hero";
+import ContentLaunch from "../components/main/content-launch";
 
 export default function Main() {
   return (
