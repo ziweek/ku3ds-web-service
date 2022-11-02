@@ -22,13 +22,23 @@ export default function LaunchButton() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in">
               <p className="text-lg text-white leading-relaxed">
-                버튼을 눌러서 찾으러 가기
+                아래 버튼을 눌러서 호이 찾으러 가기
               </p>
             </div>
-            <div data-aos="fade-in" className="flex justify-center">
+            <div
+              data-aos="fade-in"
+              data-aos-duration="800"
+              data-aos-delay="200"
+              className="flex justify-center"
+            >
               <AnimationUpper />
             </div>
-            <div data-aos="fade-in" className="flex justify-center">
+            <div
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-delay="800"
+              className="flex justify-center"
+            >
               <Link href="/planet">
                 <AnimationButton />
               </Link>
