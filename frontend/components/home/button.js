@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import ImgRocket from "../../public/rocket.png";
 import AnimationButton from "../animation/animation-button";
 import AnimationUpper from "../animation/animation-upper";
 import AOS from "aos";
@@ -9,7 +8,7 @@ import { useEffect } from "react";
 
 export default function LaunchButton() {
   useEffect(() => {
-    const screenHeight = window.innerHeight * -1;
+    // const screenHeight = window.innerHeight * -1;
     AOS.init({
       once: false,
     });
@@ -35,7 +34,7 @@ export default function LaunchButton() {
             </div>
             <div
               data-aos="fade-in"
-              data-aos-duration="1000"
+              data-aos-duration="800"
               data-aos-delay="800"
               className="flex justify-center"
             >

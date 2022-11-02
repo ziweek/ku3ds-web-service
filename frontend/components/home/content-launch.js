@@ -1,8 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
 import ImgRocket from "../../public/rocket.png";
-import AnimationButton from "../animation/animation-button";
-import AnimationUpper from "../animation/animation-upper";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -11,7 +8,7 @@ export default function ContentLaunch() {
   // console.log(screenHeight);
 
   useEffect(() => {
-    const screenHeight = window.innerHeight * -1;
+    // const screenHeight = window.innerHeight * -1;
     AOS.init({
       // offset: screenHeight * (2 / 5),
       once: false,

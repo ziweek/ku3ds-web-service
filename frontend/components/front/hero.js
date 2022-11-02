@@ -1,10 +1,10 @@
 import Image from "next/image";
-import ImgEarthHalf from "../../public/earth_half.png";
+import ImgTitle from "../../public/title.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function Earth() {
+export default function Hero() {
   useEffect(() => {
     const screenHeight = window.innerHeight * -1;
     AOS.init({
@@ -19,7 +19,7 @@ export default function Earth() {
         <div className="bg-primary container mx-auto flex px-5 py-40 items-center justify-center flex-col">
           <p>{AOS.offset}</p>
           <div data-aos="fade-up">
-            <Image src={ImgEarthHalf} height={200} alt="ImgEarthHalf" />
+            <Image src={ImgTitle} height={200} alt="tiger" />
           </div>
 
           <br />

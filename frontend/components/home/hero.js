@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 export default function Hero() {
   useEffect(() => {
-    const screenHeight = window.innerHeight * -1;
+    // const screenHeight = window.innerHeight * -1;
     AOS.init({
       // offset: screenHeight * (2 / 5),
       once: false,
