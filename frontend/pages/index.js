@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Layout from "../components/layout";
+import Hero2 from "../components/main/intro";
 import Hero from "../components/main/hero";
 import ContentLaunch from "../components/main/content-launch";
-import Hero2 from "../components/main/hero2";
 
 export default function Main() {
   return (

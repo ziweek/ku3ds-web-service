@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImgTiger from "../../public/tiger.jpeg";
+import ImgTiger from "../../public/hoi.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -8,7 +8,7 @@ export default function Hero() {
   useEffect(() => {
     const screenHeight = window.innerHeight * -1;
     AOS.init({
-      offset: screenHeight + 300,
+      offset: screenHeight * (3 / 5),
       once: false,
     });
   });

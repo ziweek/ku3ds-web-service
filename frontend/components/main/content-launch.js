@@ -13,7 +13,7 @@ export default function ContentLaunch() {
   useEffect(() => {
     const screenHeight = window.innerHeight * -1;
     AOS.init({
-      offset: screenHeight + 300,
+      offset: screenHeight * (3 / 5),
       once: false,
     });
   });
