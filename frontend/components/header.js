@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import ImgTitle from "../public/title.png";
 import AnimationCircle from "./animation/animation-circle";
+import AnimationUpper from "./animation/animation-upper";
 
 export default function Header() {
   const [scrollY, setScrollY] = useState(0);
@@ -33,6 +34,9 @@ export default function Header() {
             style={{ display: scrollY > 1 ? "none" : "block" }}
           >
             <AnimationCircle />
+            <div className="flex items-center justify-center">
+              <AnimationUpper />
+            </div>
           </div>
           <div
             className="static z-10 flex items-center justify-center"
