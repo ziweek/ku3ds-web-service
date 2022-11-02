@@ -42,21 +42,6 @@ export default function ContentLaunch() {
                 발자취를 쫓다 보면 어느새 호이와 구구를 찾을 수 있을 거에요!
               </p>
             </div>
-
-            <br />
-            <br />
-            <br />
-            <p className="text-white leading-relaxed">
-              버튼을 눌러서 찾으러 가기
-            </p>
-            <div className="flex justify-center rotate-180">
-              <AnimationUpper />
-            </div>
-            <div className="flex justify-center">
-              <Link href="/planet">
-                <AnimationButton />
-              </Link>
-            </div>
           </div>
         </div>
       </section>
