@@ -17,7 +17,6 @@ export default function Hero() {
     <>
       <section className="text-gray-500 body-font">
         <div className="bg-primary container mx-auto flex px-5 py-40 items-center justify-center flex-col">
-          <p>{AOS.offset}</p>
           <div data-aos="fade-up">
             <Image src={ImgTiger} height={200} alt="tiger" />
           </div>
