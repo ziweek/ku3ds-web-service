@@ -11,10 +11,8 @@ export default function Hero() {
     "안녕하세요. 저는 메타버스 구구입니다.",
     "지구 최강의 조류라고 할 수 있죠.",
     "오늘 안전교육을 담당할 조교입니다.",
-    "안녕하세요. 저는 메타버스 구구입니다.",
-    "만나서 반갑습니다.",
-    "만나서 반갑습니다.",
-    "만나서 반갑습니다.",
+    "문장 4",
+    "문장 5",
   ];
   const [Timer, setTimer] = useState(1000);
   const [Index, setIndex] = useState(0);
@@ -26,7 +24,7 @@ export default function Hero() {
       setTimeout(() => {
         setIndex(Index + 1);
         console.log(Index);
-      }, 500);
+      }, 2000);
     }
   };
 
@@ -77,8 +75,8 @@ export default function Hero() {
               }}
             >
               <h1 className="title-font text-2xl md:text-4xl lg:text-6xl  mb-4 py-10 font-bold text-gray-900">
-                {/* {text[Index]} */}
-                {Index}
+                {text[Index]}
+                {/* {Index} */}
               </h1>
             </motion.div>
           </div>
