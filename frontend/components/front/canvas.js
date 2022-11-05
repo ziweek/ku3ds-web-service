@@ -50,8 +50,10 @@ export default function App() {
 
     // Hyperspace object
     const Hyperspace = function (canvas, starCount = STARS, speed = SPEED) {
-      canvas.width = 480;
-      canvas.height = 640;
+      // canvas.width = 480;
+      // canvas.height = 640;
+      canvas.width = window.screen.availWidth;
+      canvas.height = window.screen.availHeight;
 
       let ctx = canvas.getContext("2d");
 
@@ -83,8 +85,14 @@ export default function App() {
       requestAnimationFrame(loop);
     };
     let canvas = document.querySelector("#hyperspace");
-    canvas.width = document.body.clientWidth;
-    canvas.height = document.body.clientHeight;
+
+    // const scale = window.devicePixelRatio;
+    // canvas.width = canvas.style.width * scale;
+    // canvas.height = canvas.style.height * scale;
+    // canvas.width = window.screen.availWidth;
+    // canvas.height = window.screen.availHeight;
+    // canvas.width = document.body.clientWidth;
+    // canvas.height = document.body.clientHeight;
     new Hyperspace(canvas, 200, 15);
   }, []);
 

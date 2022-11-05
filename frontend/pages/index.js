@@ -14,11 +14,11 @@ export default function Main() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex">
-        <Canvas />
-      </div>
-      {/* <div className="bg-black min-h-screen min-w-screen flex">
+      <div className="bg-black min-h-screen flex">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+          <div className="fixed flex">
+            <Canvas />
+          </div>
           <div className="absolute flex items-center justify-center w-3/4">
             <AnimationCircle />
           </div>
@@ -28,7 +28,7 @@ export default function Main() {
             </Link>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
