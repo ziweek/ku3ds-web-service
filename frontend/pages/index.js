@@ -18,18 +18,18 @@ export default function Main() {
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
           <div
             className="flex"
-            style={{ width: "100%", height: "100%", position: "fixed" }}
+            style={{
+              width: "100%",
+              height: "100%",
+              position: "relative",
+            }}
           >
-            <Canvas />
-          </div>
-
-          <div className="absolute flex items-center justify-center">
             <Canvas />
           </div>
           <div className="absolute flex items-center justify-center w-3/4">
             <AnimationCircle />
           </div>
-          <div className="static z-10 flex items-center justify-center">
+          <div className="absolute z-10 flex items-center justify-center">
             <Link href="/home">
               <Image src={ImgTitle} style={{ width: 800 }} alt="title" />
             </Link>
