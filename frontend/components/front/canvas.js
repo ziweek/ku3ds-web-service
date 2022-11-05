@@ -42,7 +42,7 @@ export default function App() {
         ctx.beginPath();
         ctx.moveTo(tmpX, tmpY);
         ctx.lineTo(this.x, this.y);
-        ctx.lineWidth = w * 2.5;
+        ctx.lineWidth = w * 7;
         ctx.stroke();
         return true;
       };
@@ -53,7 +53,7 @@ export default function App() {
       // canvas.width = 480;
       // canvas.height = 640;
       canvas.width = window.screen.availWidth;
-      canvas.height = window.screen.availHeight;
+      canvas.height = window.screen.height;
 
       let ctx = canvas.getContext("2d");
 
