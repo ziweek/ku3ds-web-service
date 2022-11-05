@@ -83,6 +83,8 @@ export default function App() {
       requestAnimationFrame(loop);
     };
     let canvas = document.querySelector("#hyperspace");
+    canvas.width = document.body.clientWidth;
+    canvas.height = document.body.clientHeight;
     new Hyperspace(canvas, 200, 15);
   }, []);
 
