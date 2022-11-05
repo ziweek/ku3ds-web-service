@@ -87,8 +87,8 @@ export default function App() {
   }, []);
 
   return (
-    <div>
+    <>
       <canvas id="hyperspace"></canvas>
-    </div>
+    </>
   );
 }
