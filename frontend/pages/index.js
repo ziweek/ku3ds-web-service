@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import AnimationCircle from "../components/animation/animation-circle";
 import ImgTitle from "../public/title.png";
+import Canvas from "../components/front/canvas";
 
 export default function Main() {
   return (
@@ -15,6 +16,12 @@ export default function Main() {
 
       <div className="bg-black min-h-screen flex">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
+          <div
+            className="absolute flex items-center justify-center"
+            style={{ width: "100%", height: "100%" }}
+          >
+            <Canvas />
+          </div>
           <div className="absolute flex items-center justify-center w-3/4">
             <AnimationCircle />
           </div>
@@ -28,61 +35,3 @@ export default function Main() {
     </div>
   );
 }
-
-// import Image from "next/image";
-// import { useEffect, useState } from "react";
-// import ImgTitle from "../public/title.png";
-// import AnimationCircle from "./animation/animation-circle";
-// import AnimationUpper from "./animation/animation-upper";
-
-// export default function Header() {
-//   const [scrollY, setScrollY] = useState(0);
-
-//   useEffect(() => {
-//     const handleScroll = () => {
-//       setScrollY(window.scrollY);
-//     };
-
-//     // just trigger this so that the initial state
-//     // is updated as soon as the component is mounted
-//     // related: https://stackoverflow.com/a/63408216
-//     handleScroll();
-
-//     window.addEventListener("scroll", handleScroll);
-//     return () => {
-//       window.removeEventListener("scroll", handleScroll);
-//     };
-
-//     // eslint-disable-next-line react-hooks/exhaustive-deps
-//   }, []);
-
-//   return (
-//     <>
-//       <header className="scroll bg-black text-gray-600 body-font">
-//         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
-//           <div
-//             className="absolute flex items-center justify-center w-3/4"
-//             style={{ display: scrollY > 1 ? "none" : "block" }}
-//           >
-//             <AnimationCircle />
-//             <div className="flex items-center justify-center">
-//               <AnimationUpper />
-//             </div>
-//           </div>
-//           <div
-//             className="static z-10 flex items-center justify-center"
-//             style={{
-//               height: scrollY > 1 ? "5vh" : "100vh",
-//             }}
-//           >
-//             <Image
-//               src={ImgTitle}
-//               style={{ width: scrollY > 1 ? 150 : 800 }}
-//               alt="title"
-//             />
-//           </div>
-//         </div>
-//       </header>
-//     </>
-//   );
-// }
