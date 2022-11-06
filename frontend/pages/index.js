@@ -30,9 +30,9 @@ export default function Main() {
     setTimeout(async () => {
       await setDoBoost(true);
     }, 1000);
-    setTimeout(async () => {
-      await router.push("/home", undefined, { shallow: true });
-    }, 1000);
+    // setTimeout(async () => {
+    //   await router.push("/home", undefined, { shallow: true });
+    // }, 1000);
   };
 
   return (
