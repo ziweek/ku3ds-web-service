@@ -26,9 +26,13 @@ export default function Main() {
   const clickHandler = async () => {
     setTimeout(async () => {
       await setIsClicked(!IsClicked);
+    }, 1000);
+    setTimeout(async () => {
       await setDoBoost(true);
+    }, 1000);
+    setTimeout(async () => {
       await router.push("/home", undefined, { shallow: true });
-    }, 750);
+    }, 1000);
   };
 
   return (
