@@ -90,14 +90,9 @@ export default function App(props) {
     canvas.style.height = "100%";
 
     if (props.DoBoost == true) {
-      console.log(`안쪽`);
-      if (Speed < props.maxSpeed) {
-        setTimeout(() => {
-          setSpeed(Speed + 1);
-        }, 10);
-      }
+      setSpeed(props.maxSpeed);
     }
-    console.log(`Speed: ${Speed}`);
+
     const hypersapce = Hyperspace(canvas, 300, Speed);
   }, [props.DoBoost, Speed]);
 

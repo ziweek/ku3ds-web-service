@@ -19,7 +19,7 @@ export default function Main() {
     if (IsVisible == false) {
       setTimeout(async () => {
         await setIsVisible(true);
-      }, 3000);
+      }, 2000);
     }
   }, []);
 
@@ -27,10 +27,10 @@ export default function Main() {
     await setIsClicked(!IsClicked);
     setTimeout(async () => {
       await setDoBoost(true);
-    }, 1000);
-    // setTimeout(async () => {
-    //   await router.push("/home", undefined, { shallow: true });
-    // }, 1000);
+    }, 500);
+    setTimeout(async () => {
+      await router.push("/home", undefined, { shallow: true });
+    }, 2000);
   };
 
   return (
@@ -44,7 +44,9 @@ export default function Main() {
       <div className="bg-black min-h-screen flex">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
           <div className="fixed flex" style={{ width: "100%", height: "100%" }}>
-            <Canvas DoBoost={DoBoost} minSpeed={15} maxSpeed={30} />
+            {/* <motion.div animate={IsVisible ? { opacity: 1 } : { opacity: 0 }}> */}
+            <Canvas DoBoost={DoBoost} minSpeed={10} maxSpeed={30} />
+            {/* </motion.div> */}
           </div>
           <div className="absolute z-10 flex items-center justify-center">
             <button onClick={clickHandler}>
