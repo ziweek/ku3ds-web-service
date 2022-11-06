@@ -19,7 +19,7 @@ export default function Main() {
     if (IsVisible == false) {
       setTimeout(async () => {
         await setIsVisible(true);
-      }, 2000);
+      }, 1000);
     }
   }, []);
 
