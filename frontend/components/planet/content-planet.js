@@ -102,7 +102,7 @@ export default function ContentPlanet() {
                   콩닥콩닥 화성별
                 </h2>
                 <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
-                  공포게임 체험부스 - Don't let go
+                  공포게임 체험부스 - Dont let go
                 </h3>
                 <div
                   data-aos="fade-in"
