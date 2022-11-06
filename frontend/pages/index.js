@@ -24,9 +24,7 @@ export default function Main() {
   }, []);
 
   const clickHandler = async () => {
-    setTimeout(async () => {
-      await setIsClicked(!IsClicked);
-    }, 1000);
+    await setIsClicked(!IsClicked);
     setTimeout(async () => {
       await setDoBoost(true);
     }, 1000);
