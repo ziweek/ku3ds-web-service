@@ -5,6 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
 import { motion, useAnimationControls } from "framer-motion";
+import Canvas from "./canvas";
 
 export default function Hero() {
   const imgControls = useAnimationControls();
@@ -50,7 +51,7 @@ export default function Hero() {
           setIsImgAction(true);
         }
         setIndex(Index + 1);
-      }, 1000);
+      }, 5000);
     } else {
     }
   };
@@ -70,9 +71,15 @@ export default function Hero() {
   return (
     <>
       <div>
-        <section className="text-gray-600 body-font">
+        <section className="bg-black body-font">
           <div className="min-h-screen container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-            <div className={"w-1/3 mb-10 object-cover object-center rounded"}>
+            <div
+              className="fixed flex"
+              style={{ width: "100%", height: "100%" }}
+            >
+              <Canvas />
+            </div>
+            {/* <div className={"w-1/3 mb-10 object-cover object-center rounded"}>
               <motion.div animate={imgControls}>
                 <Image
                   alt="hero"
@@ -82,11 +89,10 @@ export default function Hero() {
               </motion.div>
             </div>
             <motion.div animate={textControls}>
-              <h1 className="title-font text-2xl md:text-4xl lg:text-6xl  mb-4 py-10 font-bold text-gray-900">
+              <h1 className="title-font text-2xl md:text-4xl lg:text-6xl  mb-4 py-10 font-bold text-gray-100">
                 {text[Index]}
-                {/* {Index} */}
               </h1>
-            </motion.div>
+            </motion.div> */}
           </div>
         </section>
       </div>
