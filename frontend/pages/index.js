@@ -4,8 +4,19 @@ import Link from "next/link";
 import AnimationCircle from "../components/animation/animation-circle";
 import ImgTitle from "../public/title.png";
 import Canvas from "../components/front/canvas";
+import { useEffect, useState } from "react";
+import { motion, useSpring } from "framer-motion";
 
 export default function Main() {
+  const [isClicked, setIsClicked] = useState(false);
+
+  const clickHandler = async () => {
+    // await console.log(isClicked);
+    // await console.log("clicked");
+    await setIsClicked(!isClicked);
+    // await console.log(isClicked);
+  };
+
   return (
     <div>
       <Head>
@@ -16,15 +27,23 @@ export default function Main() {
 
       <div className="bg-black min-h-screen flex">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
-          <div className="fixed flex">
+          <div className="fixed flex" style={{ width: "100%", height: "100%" }}>
             <Canvas />
           </div>
-          <div className="absolute flex items-center justify-center w-3/4">
+          <div className="absolute flex items-center justify-center">
             <AnimationCircle />
           </div>
           <div className="absolute z-10 flex items-center justify-center">
-            <Link href="/home">
-              <Image src={ImgTitle} style={{ width: 800 }} alt="title" />
+            <Link href="/home" shallow>
+              <button onClick={clickHandler}>
+                <motion.div
+                  initia={{ scale: [0.5, 1.8, 1], opacity: [0, 0.75, 1] }}
+                  animate={isClicked ? { scale: [0.5, 1.2, 1] } : { scale: 1 }}
+                  transition={{}}
+                >
+                  <Image src={ImgTitle} alt="title" priority />
+                </motion.div>
+              </button>
             </Link>
           </div>
         </div>

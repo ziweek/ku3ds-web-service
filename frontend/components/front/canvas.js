@@ -42,7 +42,7 @@ export default function App() {
         ctx.beginPath();
         ctx.moveTo(tmpX, tmpY);
         ctx.lineTo(this.x, this.y);
-        ctx.lineWidth = w * 7;
+        ctx.lineWidth = w * 5;
         ctx.stroke();
         return true;
       };
@@ -50,10 +50,8 @@ export default function App() {
 
     // Hyperspace object
     const Hyperspace = function (canvas, starCount = STARS, speed = SPEED) {
-      // canvas.width = 480;
-      // canvas.height = 640;
-      canvas.width = window.screen.availWidth;
-      canvas.height = window.screen.height;
+      canvas.width = 480;
+      canvas.height = 640;
 
       let ctx = canvas.getContext("2d");
 
@@ -85,15 +83,9 @@ export default function App() {
       requestAnimationFrame(loop);
     };
     let canvas = document.querySelector("#hyperspace");
-
-    // const scale = window.devicePixelRatio;
-    // canvas.width = canvas.style.width * scale;
-    // canvas.height = canvas.style.height * scale;
-    // canvas.width = window.screen.availWidth;
-    // canvas.height = window.screen.availHeight;
-    // canvas.width = document.body.clientWidth;
-    // canvas.height = document.body.clientHeight;
-    new Hyperspace(canvas, 200, 15);
+    new Hyperspace(canvas, 300, 15);
+    canvas.style.width = "100%";
+    canvas.style.height = "100%";
   }, []);
 
   return (
