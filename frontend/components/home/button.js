@@ -13,7 +13,7 @@ export default function LaunchButton() {
     await setIsPulled(true);
     setTimeout(async () => {
       await router.push("/planet", undefined, { shallow: true });
-    }, 500);
+    }, 1000);
   };
 
   useEffect(() => {}, []);

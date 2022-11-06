@@ -30,7 +30,7 @@ export default function Main() {
     }, 500);
     setTimeout(async () => {
       await router.push("/home", undefined, { shallow: true });
-    }, 2000);
+    }, 1000);
   };
 
   return (
