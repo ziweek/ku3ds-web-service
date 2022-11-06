@@ -16,8 +16,6 @@ export default function LaunchButton() {
     }, 1000);
   };
 
-  useEffect(() => {}, []);
-
   return (
     <>
       <section className="text-gray-600 body-font">

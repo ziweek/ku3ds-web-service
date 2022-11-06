@@ -5,14 +5,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Hero() {
-  useEffect(() => {
-    // const screenHeight = window.innerHeight * -1;
-    AOS.init({
-      // offset: screenHeight * (2 / 5),
-      once: false,
-    });
-  });
-
   return (
     <>
       <section className="text-gray-500 body-font">
@@ -26,7 +18,6 @@ export default function Hero() {
               안녕, 나는 구구!
             </h1>
           </div>
-
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">

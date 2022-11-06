@@ -5,14 +5,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Hero() {
-  useEffect(() => {
-    // const screenHeight = window.innerHeight * -1;
-    AOS.init({
-      // offset: screenHeight * (2 / 5),
-      once: false,
-    });
-  });
-
   return (
     <>
       <section className="text-gray-500 body-font">

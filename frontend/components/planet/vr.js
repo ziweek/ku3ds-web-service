@@ -5,14 +5,6 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Vr() {
-  useEffect(() => {
-    // const screenHeight = window.innerHeight * -1;
-    AOS.init({
-      // offset: screenHeight * (2 / 5),
-      once: false,
-    });
-  });
-
   return (
     <>
       <section className="text-gray-500 body-font">
@@ -30,7 +22,7 @@ export default function Vr() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
-                여기 ‘오큘러스 퀘스트’를 쓰면 너희도 메타버스 세계로 접속할 수
+                여기 오큘러스 퀘스트를 쓰면 너희도 메타버스 세계로 접속할 수
                 있어. 지금 바로 이 오큘러스 퀘스트로 우주에 접속해 호이를
                 찾아줘!
               </p>
