@@ -6,15 +6,29 @@ import ImgTitle from "../public/title.png";
 import Canvas from "../components/front/canvas";
 import { useEffect, useState } from "react";
 import { motion, useSpring } from "framer-motion";
+import { useRouter } from "next/router";
 
 export default function Main() {
-  const [isClicked, setIsClicked] = useState(false);
+  const router = useRouter();
+  const [IsVisible, setIsVisible] = useState(false);
+  const [IsClicked, setIsClicked] = useState(false);
+  const [DoBoost, setDoBoost] = useState(false);
+
+  useEffect(() => {
+    // console.log("useEffect");
+    if (IsVisible == false) {
+      setTimeout(async () => {
+        await setIsVisible(true);
+      }, 3000);
+    }
+  }, []);
 
   const clickHandler = async () => {
-    // await console.log(isClicked);
-    // await console.log("clicked");
-    await setIsClicked(!isClicked);
-    // await console.log(isClicked);
+    await setIsClicked(!IsClicked);
+    setTimeout(async () => {
+      await setDoBoost(true);
+    }, 750);
+    await router.push("/home", undefined, { shallow: true });
   };
 
   return (
@@ -28,23 +42,22 @@ export default function Main() {
       <div className="bg-black min-h-screen flex">
         <div className="relative container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center">
           <div className="fixed flex" style={{ width: "100%", height: "100%" }}>
-            <Canvas />
-          </div>
-          <div className="absolute flex items-center justify-center">
-            <AnimationCircle />
+            <Canvas DoBoost={DoBoost} minSpeed={15} maxSpeed={30} />
           </div>
           <div className="absolute z-10 flex items-center justify-center">
-            <Link href="/home" shallow>
-              <button onClick={clickHandler}>
+            <button onClick={clickHandler}>
+              <motion.div
+                initial={{ opacity: 0 }}
+                animate={IsVisible ? { opacity: 1 } : { opacity: 0 }}
+              >
                 <motion.div
-                  initia={{ scale: [0.5, 1.8, 1], opacity: [0, 0.75, 1] }}
-                  animate={isClicked ? { scale: [0.5, 1.2, 1] } : { scale: 1 }}
+                  animate={IsClicked ? { scale: [0.5, 1.2, 0] } : { scale: 1 }}
                   transition={{}}
                 >
                   <Image src={ImgTitle} alt="title" priority />
                 </motion.div>
-              </button>
-            </Link>
+              </motion.div>
+            </button>
           </div>
         </div>
       </div>
