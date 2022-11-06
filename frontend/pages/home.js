@@ -4,7 +4,7 @@ import Hero from "../components/home/hero";
 import ContentLaunch from "../components/home/content-launch";
 import LaunchButton from "../components/home/button";
 import Earth from "../components/home/earth";
-import Intro from "../components/home/intro";
+import Memo from "../components/home/memo";
 
 export default function Main() {
   return (
@@ -17,9 +17,9 @@ export default function Main() {
 
       <Layout>
         <div className="bg-black">
-          <Intro />
-          <Earth />
           <Hero />
+          <Memo />
+          <Earth />
           <ContentLaunch />
           <LaunchButton />
         </div>

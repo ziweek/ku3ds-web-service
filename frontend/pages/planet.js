@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import Layout from "../components/layout";
 import ContentPlanet from "../components/planet/content-planet";
+import Hero from "../components/planet/hero";
+import Vr from "../components/planet/vr";
 
 export default function Main() {
   return (
@@ -14,6 +16,8 @@ export default function Main() {
 
       <Layout>
         <div className="bg-black">
+          <Hero />
+          <Vr />
           <ContentPlanet />
         </div>
       </Layout>

@@ -4,7 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function Intro() {
+export default function Memo() {
   useEffect(() => {
     // const screenHeight = window.innerHeight * -1;
     AOS.init({
@@ -25,16 +25,14 @@ export default function Intro() {
           <br />
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-up">
-              <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
-                혹시 이 호랑이를 본 적이 있나요?
-              </h1>
-            </div>
-            <div data-aos="fade-up">
               <p className="mb-8 leading-relaxed">
-                파이빌에서 평화로운 나날을 보내던 호이와 구구는 어느 날 ‘우리를
-                찾아보라’는 쪽지를 남기고 사라졌습니다. ku-3ds 문 앞에서
-                기웃거리던 귀여운 모습이 눈에 선하네요. 메타버스 세계로 떠났다는
-                소문만 무성하고 행방은 묘연합니다.
+                “VR 속에는 재밌는게 정말 많은 것 같아.
+                <br />
+                나랑 숨바꼭질 하자!
+                <br />
+                나를 찾아봐, 우주에서 기다릴게!”
+                <br />
+                <br />「 호이 」
               </p>
             </div>
             <div className="flex justify-center"></div>
