@@ -9,7 +9,9 @@ export default function Header() {
         <div className="container mx-auto flex flex-wrap p-5 flex-row items-space justify-between">
           <div className="flex">
             <Link href="/home">
-              <Image src={Imglogo3ds} alt="title" height={30} />
+              <button>
+                <Image src={Imglogo3ds} alt="title" height={30} />
+              </button>
             </Link>
           </div>
           <div className="flex">

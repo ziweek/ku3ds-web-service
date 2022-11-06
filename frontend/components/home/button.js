@@ -1,18 +1,22 @@
-import Image from "next/image";
-import Link from "next/link";
 import AnimationButton from "../animation/animation-button";
 import AnimationUpper from "../animation/animation-upper";
-import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 export default function LaunchButton() {
-  useEffect(() => {
-    // const screenHeight = window.innerHeight * -1;
-    AOS.init({
-      once: false,
-    });
-  });
+  const router = useRouter();
+  const [IsPulled, setIsPulled] = useState(false);
+
+  const clickHandler = async () => {
+    await setIsPulled(true);
+    setTimeout(async () => {
+      await router.push("/planet", undefined, { shallow: true });
+    }, 500);
+  };
+
+  useEffect(() => {}, []);
 
   return (
     <>
@@ -38,9 +42,13 @@ export default function LaunchButton() {
               data-aos-delay="800"
               className="flex justify-center"
             >
-              <Link href="/planet">
-                <AnimationButton />
-              </Link>
+              <button onClick={clickHandler}>
+                <motion.div
+                  animate={IsPulled ? { scale: [0.5, 1.2, 0] } : { scale: 1 }}
+                >
+                  <AnimationButton />
+                </motion.div>
+              </button>
             </div>
           </div>
         </div>
