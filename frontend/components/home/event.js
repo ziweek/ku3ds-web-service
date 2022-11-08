@@ -19,7 +19,7 @@ export default function Event() {
             <Image src={ImgTiger} height={200} alt="tiger" />
           </div>
           <br />
-          <div data-aos="fade-up">
+          <div data-aos="fade-in">
             <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
               얘들아, 기다리고 있을게!
             </h1>
