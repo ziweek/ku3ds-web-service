@@ -19,7 +19,7 @@ export default function Hoi() {
             <Image src={ImgTiger} height={200} alt="tiger" />
           </div>
           <br />
-          <div data-aos="fade-up">
+          <div data-aos="fade-in">
             <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
               이 호랑이를 찾습니다!
             </h1>
