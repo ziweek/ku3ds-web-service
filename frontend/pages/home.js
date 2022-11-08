@@ -19,7 +19,9 @@ export default function Main() {
       </Head>
 
       <Layout>
-        <div className="bg-black">
+        <div className="bg-primary">
+          <br />
+          <br />
           <Title text="메타버스 스토리"></Title>
           <Hoi />
           <Memo />
