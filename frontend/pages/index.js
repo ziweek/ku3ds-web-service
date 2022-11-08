@@ -1,11 +1,10 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import AnimationCircle from "../components/animation/animation-circle";
 import ImgTitle from "../public/title.png";
 import Canvas from "../components/front/canvas";
 import { useEffect, useState } from "react";
-import { motion, useSpring } from "framer-motion";
+import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 
 export default function Main() {
@@ -15,7 +14,6 @@ export default function Main() {
   const [DoBoost, setDoBoost] = useState(false);
 
   useEffect(() => {
-    // console.log("useEffect");
     if (IsVisible == false) {
       setTimeout(async () => {
         await setIsVisible(true);
