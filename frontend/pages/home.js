@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import Hoi from "../components/home/hero";
+import Hoi from "../components/home/hoi";
 import Gugu from "../components/home/earth";
 import Memo from "../components/home/memo";
 import ContentPlanet from "../components/home/content-planet";

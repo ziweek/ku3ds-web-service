@@ -41,20 +41,33 @@ export default function ContentPlanet() {
                 <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   안내 및 상품 수령 부스
                 </h3>
-                <p className="leading-relaxed text-base">
-                  &nbsp;&nbsp;숨어버린 호이를 찾기 위해 떠나시는 여러분께 간단한
-                  안내를 해드리고, 호이를 찾기 위한 지도가 있는 팜플렛과 참가자
-                  전원에게 증명하는 기념품을 나눠드립니다. 앞으로 펼쳐질 여정이
-                  위험하지 않도록 주의사항에도 귀를 기울여주세요.
-                </p>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <p className="leading-relaxed text-base">
+                    &nbsp;&nbsp;숨어버린 호이를 찾기 위해 떠나시는 여러분께
+                    간단한 안내를 해드리고, 호이를 찾기 위한 지도가 있는
+                    팜플렛과 참가자 전원에게 증명하는 기념품을 나눠드립니다.
+                    앞으로 펼쳐질 여정이 위험하지 않도록 주의사항에도 귀를
+                    기울여주세요.
+                  </p>
+                </div>
                 <br />
                 <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   EVENT
                 </h3>
-                <p className="leading-relaxed text-base">
-                  - 나눠드린 팜플렛에 스티커를 5개 이상 받아 무사히 다시 지구로
-                  돌아오시면 선착순으로 선물을 드립니다!
-                </p>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <p className="leading-relaxed text-base">
+                    - 나눠드린 팜플렛에 스티커를 5개 이상 받아 무사히 다시
+                    지구로 돌아오시면 선착순으로 선물을 드립니다!
+                  </p>
+                </div>
               </div>
             </div>
             <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
@@ -64,7 +77,7 @@ export default function ContentPlanet() {
                 </div>
                 <br />
                 <h2 className="font-pak text-2xl font-medium title-font mb-4">
-                  블링블링 달
+                  블링블링 달빛별
                 </h2>
                 <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   포토존 부스
@@ -80,10 +93,16 @@ export default function ContentPlanet() {
                     준비했습니다. 메타버스 세계에 접속했던 오늘의 추억을
                     사진으로 남겨보세요!
                   </p>
-                  <br />
-                  <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
-                    EVENT
-                  </h3>
+                </div>
+                <br />
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  EVENT
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
                   <p className="leading-relaxed text-base">
                     - 오늘 체험에서 즐거웠던 활동 or 재밌었던 장면을 인스타그램
                     스토리에 @ku_3ds를 태그해서 올려주시면 폴라로이드 사진을
@@ -143,10 +162,16 @@ export default function ContentPlanet() {
                     곳으로 이동해주세요! 무사히 이동하신 분들을 위한 상품도
                     준비되어 있어요!
                   </p>
-                  <br />
-                  <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
-                    EVENT
-                  </h3>
+                </div>
+                <br />
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  EVENT
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
                   <p className="leading-relaxed text-base">
                     - 1층 & 2층의 비트세이버 부스에서 점수 챌린지에 도전하시면
                     점수 상위 8분에게 상품을 드립니다!

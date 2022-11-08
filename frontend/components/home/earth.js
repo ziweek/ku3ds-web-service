@@ -50,9 +50,6 @@ export default function Gugu() {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
             <div data-aos="fade-in">
               <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
                 꼭 호이를 찾아줘..!
