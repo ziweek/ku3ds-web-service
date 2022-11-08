@@ -1,17 +1,17 @@
 import Image from "next/image";
-import ImgEarthHalf from "../../public/earth_half.png";
+import ImgGuguGlasses from "../../public/gugu_glasses.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-export default function Earth() {
+export default function Gugu() {
   return (
     <>
       <section className="text-gray-500 body-font">
         <div className="bg-primary container mx-auto flex px-5 py-40 items-center justify-center flex-col">
           <p>{AOS.offset}</p>
           <div data-aos="fade-up">
-            <Image src={ImgEarthHalf} height={200} alt="ImgEarthHalf" />
+            <Image src={ImgGuguGlasses} height={200} alt="ImgGuguGlasses" />
           </div>
 
           <br />
@@ -19,17 +19,46 @@ export default function Earth() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in">
               <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
-                혹시 이 호랑이를 본 적이 있나요?
+                메타버스에서 호이를 찾아줘!
               </h1>
             </div>
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
-                파이빌에서 평화로운 나날을 보내던 호이와 구구는 어느 날 ‘우리를
-                찾아보라’는 쪽지를 남기고 사라졌습니다. ku-3ds 문 앞에서
-                기웃거리던 귀여운 모습이 눈에 선하네요. 메타버스 세계로 떠났다는
-                소문만 무성하고 행방은 묘연합니다.
+                아무래도 호이가 VR 장비로 메타버스에 접속한 것 같아. 다른
+                메타버스에서 온 나는 호이를 찾으러 갈 수 없어.
               </p>
             </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div data-aos="fade-in">
+              <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
+                부탁이야...
+              </h1>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div data-aos="fade-in">
+              <h1 className="font-pak title-font sm:text-4xl text-3xl mb-4 font-medium">
+                꼭 호이를 찾아줘..!
+              </h1>
+            </div>
+
             <div className="flex justify-center"></div>
           </div>
         </div>

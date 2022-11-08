@@ -15,13 +15,13 @@ export default function ContentPlanet() {
           <div className="flex flex-wrap w-full mb-20">
             <div data-aos="fade-in" className="lg:w-1/2 w-full mb-6 lg:mb-0">
               <h1 className="font-pak sm:text-3xl text-4xl font-medium title-font mb-2">
-                Synk to Universe
+                체험부스 소개
               </h1>
-              <div className="h-1 w-60 bg-indigo-500 rounded"></div>
+              <div className="h-1 w-40 bg-indigo-500 rounded"></div>
             </div>
             <div data-aos="fade-in" data-aos-duration="800">
               <p className="lg:w-1/2 w-full leading-relaxed">
-                &nbsp;&nbsp;이제 여러분은 파이빌 은하계로 떠나는 우주선에
+                &nbsp;&nbsp;이제 여러분은 메타버스 은하계로 떠나는 VR 우주선에
                 탑승하셨습니다. 순조롭게 지구 밖으로 날아오릅니다. 가속도로 인한
                 압박이 가시고 눈을 떠보니 펼쳐진 놀라운 광경! 창문 밖으로 펼쳐질
                 아름다운 우주를 마음껏 눈에 담아주세요!
@@ -31,7 +31,7 @@ export default function ContentPlanet() {
           <div className="flex flex-wrap -m-4">
             <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
               <div className="bg-gray-800 p-6 rounded-lg">
-                <div data-aos="fade-in">
+                <div data-aos="zoom-in-up">
                   <AnimationEarth />
                 </div>
                 <br />

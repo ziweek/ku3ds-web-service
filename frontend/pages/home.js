@@ -1,10 +1,13 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import Hero from "../components/home/hero";
+import Hoi from "../components/home/hero";
 import ContentLaunch from "../components/home/content-launch";
 import LaunchButton from "../components/home/button";
-import Earth from "../components/home/earth";
+import Gugu from "../components/home/earth";
 import Memo from "../components/home/memo";
+import ContentPlanet from "../components/home/content-planet";
+import Title from "../components/home/title";
+import Event from "../components/home/event";
 
 export default function Main() {
   return (
@@ -17,11 +20,12 @@ export default function Main() {
 
       <Layout>
         <div className="bg-black">
-          <Hero />
+          <Title></Title>
+          <Hoi />
           <Memo />
-          <Earth />
-          <ContentLaunch />
-          <LaunchButton />
+          <Gugu />
+          <ContentPlanet />
+          <Event></Event>
         </div>
       </Layout>
     </div>

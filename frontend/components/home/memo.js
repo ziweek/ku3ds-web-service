@@ -26,13 +26,9 @@ export default function Memo() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-up">
               <p className="mb-8 leading-relaxed">
-                “VR 속에는 재밌는게 정말 많은 것 같아.
+                그리고,
                 <br />
-                나랑 숨바꼭질 하자!
-                <br />
-                나를 찾아봐, 우주에서 기다릴게!”
-                <br />
-                <br />「 호이 」
+                쪽지 하나가 남겨져 있었습니다.
               </p>
             </div>
             <div className="flex justify-center"></div>
