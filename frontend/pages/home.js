@@ -20,11 +20,12 @@ export default function Main() {
 
       <Layout>
         <div className="bg-black">
-          <Title></Title>
+          <Title text="메타버스 스토리"></Title>
           <Hoi />
           <Memo />
           <Gugu />
           <ContentPlanet />
+          <Title text="일시 및 장소"></Title>
           <Event></Event>
         </div>
       </Layout>
