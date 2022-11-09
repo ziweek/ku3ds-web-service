@@ -24,8 +24,8 @@ export default function Gugu() {
             </div>
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
-                아무래도 호이가 VR 장비로 메타버스에 접속한 것 같아. 다른
-                메타버스에서 온 나는 호이를 찾으러 갈 수 없어.
+                아무래도 호이가 VR 장비로 메타버스에 접속한 것 같아. 이미 다른
+                메타버스에서 온 나로써는 지금 호이를 찾으러 갈 수가 없어.
               </p>
             </div>
             <br />
