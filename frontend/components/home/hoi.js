@@ -26,7 +26,7 @@ export default function Hoi() {
           </div>
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
-              <p className="mb-8 leading-relaxed">
+              <p className="font-hsb mb-8 leading-relaxed">
                 {/* 평화롭던 어느 날, 호이가 KU-3DS Metaverse 세상에 놀러왔어요.
                 그런데, 잠시 한 눈을 판 사이에 호이가 사라져버렸습니다! */}
                 KU-3DS에 놀러온 호이,

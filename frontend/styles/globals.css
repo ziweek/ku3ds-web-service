@@ -6,6 +6,10 @@
   font-family: "Pak_Yong_jun";
 }
 
+.font-hsb {
+  font-family: "HSBombaram";
+}
+
 .bg-primary {
   @apply bg-[#121129];
   /* @apply bg-[#121129]; */

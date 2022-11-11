@@ -23,7 +23,7 @@ export default function Gugu() {
               </h1>
             </div>
             <div data-aos="fade-in" data-aos-duration="1500">
-              <p className="mb-8 leading-relaxed">
+              <p className="font-hsb mb-8 leading-relaxed">
                 아무래도 호이가 오큘러스 퀘스트로 우주에 접속한 것 같아. 너희가
                 호이를 찾아서 데려와줘!
               </p>

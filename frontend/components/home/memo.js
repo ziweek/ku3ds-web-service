@@ -22,7 +22,7 @@ export default function Memo() {
           </div>
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in">
-              <p className="mb-8 leading-relaxed">
+              <p className="font-hsb mb-8 leading-relaxed">
                 그리고, 책상 위에
                 <br />
                 쪽지만 하나 남아있다.

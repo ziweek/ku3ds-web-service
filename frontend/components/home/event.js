@@ -31,7 +31,7 @@ export default function Event() {
           </div>
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
-              <p className="mb-8 leading-relaxed">
+              <p className="font-hsb mb-8 leading-relaxed">
                 고려대학교 파이필 1층 & 2층
                 <br />
                 11월 17일 14시부터 20시까지
