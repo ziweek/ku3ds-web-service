@@ -5,7 +5,7 @@ import logoKu from "../public/logo_ku.png";
 export default function Footer() {
   return (
     <>
-      <footer className="text-gray-600 body-font">
+      <footer className="text-black body-font">
         <div className="container px-5 mx-auto"></div>
         <div className="bg-gray-800">
           <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">

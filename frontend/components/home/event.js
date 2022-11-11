@@ -27,11 +27,11 @@ export default function Event() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
-                장소 : 고려대학교 파이필 1층 & 2층
+                고려대학교 파이필 1층 & 2층
                 <br />
-                일시 : 11월 17일 14시부터 17시까지
+                11월 17일 14시부터 20시까지
                 <br />
-                일시 : 11월 18일 14시부터 17시까지
+                11월 18일 14시부터 20시까지
               </p>
             </div>
           </div>

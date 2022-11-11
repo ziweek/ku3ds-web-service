@@ -10,7 +10,11 @@ export default function Title(props) {
             <h1 className="font-pak sm:text-3xl text-4xl font-medium title-font mb-2">
               {props.text}
             </h1>
-            <div className="h-1 w-60 bg-indigo-500 rounded"></div>
+            <div
+              data-aos="zoom-in-right"
+              data-aos-duration="1000"
+              className="h-1 w-60 bg-indigo-500 rounded"
+            ></div>
           </div>
         </div>
       </section>

@@ -7,7 +7,8 @@
 }
 
 .bg-primary {
-  @apply bg-slate-700;
+  @apply bg-[#121129];
+  /* @apply bg-[#121129]; */
 }
 
 .btn-project {

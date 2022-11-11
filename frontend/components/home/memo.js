@@ -21,11 +21,11 @@ export default function Memo() {
             <Image src={ImgMemo} height={600} alt="ImgMemo" />
           </div>
           <div className="text-center lg:w-2/3 w-full">
-            <div data-aos="fade-up">
+            <div data-aos="fade-in">
               <p className="mb-8 leading-relaxed">
-                그리고,
+                그리고, 책상 위에
                 <br />
-                쪽지 하나가 남겨져 있었습니다.
+                쪽지만 하나 남아있다.
               </p>
             </div>
             <div className="flex justify-center"></div>

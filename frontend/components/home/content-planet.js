@@ -12,21 +12,25 @@ export default function ContentPlanet() {
     <>
       <section className="text-gray-600 body-font">
         <div className="bg-primary container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap w-full mb-20">
-            <div data-aos="fade-in" className="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <div className="flex flex-wrap w-full mb-10">
+            <div data-aos="fade-in" className="lg:w-1/2 w-full lg:mb-0">
               <h1 className="font-pak sm:text-3xl text-4xl font-medium title-font mb-2">
                 체험부스 소개
               </h1>
-              <div className="h-1 w-40 bg-indigo-500 rounded"></div>
+              <div
+                data-aos="zoom-in-right"
+                data-aos-duration="1000"
+                className="h-1 w-40 bg-indigo-500 rounded"
+              ></div>
             </div>
-            <div data-aos="fade-in" data-aos-duration="800">
+            {/* <div data-aos="fade-in" data-aos-duration="800">
               <p className="lg:w-1/2 w-full leading-relaxed">
                 &nbsp;&nbsp;이제 여러분은 메타버스 은하계로 떠나는 VR 우주선에
                 탑승하셨습니다. 순조롭게 지구 밖으로 날아오릅니다. 가속도로 인한
                 압박이 가시고 눈을 떠보니 펼쳐진 놀라운 광경! 창문 밖으로 펼쳐질
                 아름다운 우주를 마음껏 눈에 담아주세요!
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-wrap -m-4">
             <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
@@ -145,7 +149,34 @@ export default function ContentPlanet() {
                 </div>
                 <br />
                 <h2 className="font-pak text-2xl font-medium title-font mb-4">
-                  삐용삐용 목성별
+                  빵야빵야 토성별
+                </h2>
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  액션게임 체험부스 - Pistol Whip
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <p className="leading-relaxed text-base">
+                    &nbsp;&nbsp;이제 여러분은 토성에 도착했습니다. 앗! 저기
+                    호이가 있는 것 같아요. 그런데 누군가에게 쫓기고 있는 것
+                    같습니다. 우리가 가서 도와줘야겠어요. 어서 이 총을 받아
+                    적들을 물리쳐주세요! 배경 음악에 맞춰 쏘면 더 높은 점수를
+                    받을 수 있답니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <div data-aos="zoom-in-up" data-aos-duration="800">
+                  <AnimationNeptune />
+                </div>
+                <br />
+                <h2 className="font-pak text-2xl font-medium title-font mb-4">
+                  삐용삐용 천왕성
                 </h2>
                 <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
                   리듬게임 체험부스 - 비트세이버
@@ -175,33 +206,6 @@ export default function ContentPlanet() {
                   <p className="leading-relaxed text-base">
                     - 1층 & 2층의 비트세이버 부스에서 점수 챌린지에 도전하시면
                     점수 상위 8분에게 상품을 드립니다!
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
-              <div className="bg-gray-800 p-6 rounded-lg">
-                <div data-aos="zoom-in-up" data-aos-duration="800">
-                  <AnimationNeptune />
-                </div>
-                <br />
-                <h2 className="font-pak text-2xl font-medium title-font mb-4">
-                  빵야빵야 해왕성
-                </h2>
-                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
-                  액션게임 체험부스 - Pistol Whip
-                </h3>
-                <div
-                  data-aos="fade-in"
-                  data-aos-duration="1000"
-                  data-aos-delay="200"
-                >
-                  <p className="leading-relaxed text-base">
-                    &nbsp;&nbsp;이제 여러분은 토성에 도착했습니다. 앗! 저기
-                    호이가 있는 것 같아요. 그런데 누군가에게 쫓기고 있는 것
-                    같습니다. 우리가 가서 도와줘야겠어요. 어서 이 총을 받아
-                    적들을 물리쳐주세요! 배경 음악에 맞춰 쏘면 더 높은 점수를
-                    받을 수 있답니다.
                   </p>
                 </div>
               </div>

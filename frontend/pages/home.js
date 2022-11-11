@@ -18,9 +18,7 @@ export default function Main() {
 
       <Layout>
         <div className="bg-primary">
-          <br />
-          <br />
-          <Title text="메타버스 스토리"></Title>
+          <Title text="호이가 사라졌다!"></Title>
           <Hoi />
           <Memo />
           <Gugu />

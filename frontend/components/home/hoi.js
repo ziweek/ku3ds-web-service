@@ -8,11 +8,7 @@ export default function Hoi() {
   return (
     <>
       <section className="text-gray-500 body-font">
-        <br />
-        <br />
-        <br />
-        <br />
-        <div className="bg-primary container mx-auto flex px-5 py-20 items-center justify-center flex-col">
+        <div className="bg-primary container mx-auto flex px-5  items-center justify-center flex-col">
           {/* <div data-aos="fade-in" className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="font-pak sm:text-3xl text-4xl font-medium title-font mb-2">
               스토리 소개
@@ -31,8 +27,11 @@ export default function Hoi() {
           <div className="text-center lg:w-2/3 w-full">
             <div data-aos="fade-in" data-aos-duration="1500">
               <p className="mb-8 leading-relaxed">
-                평화롭던 어느 날, 호이가 KU-3DS Metaverse 세상에 놀러왔어요.
-                그런데, 잠시 한 눈을 판 사이에 호이가 사라져버렸습니다!
+                {/* 평화롭던 어느 날, 호이가 KU-3DS Metaverse 세상에 놀러왔어요.
+                그런데, 잠시 한 눈을 판 사이에 호이가 사라져버렸습니다! */}
+                KU-3DS에 놀러온 호이,
+                <br />
+                VR 체험을 하던 중 갑자기 사라져버렸다.
               </p>
             </div>
           </div>
