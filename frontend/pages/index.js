@@ -63,8 +63,8 @@ export default function Main() {
           </div>
           <div className="absolute bottom-40 z-20 py-30 flex">
             <motion.div
-              animate={{ opacity: [0.75, 0.4] }}
-              transition={{ repeat: Infinity }}
+              animate={IsClicked ? { opacity: 0 } : { opacity: [0.75, 0.4] }}
+              transition={IsClicked ? {} : { repeat: Infinity }}
             >
               <p className="font-hsb">위의 로고를 눌러서 메타버스로 입장하기</p>
             </motion.div>
