@@ -194,7 +194,7 @@ export default function ContentPlanet() {
                 >
                   <br />
                   <p className="font-hsb leading-relaxed text-base">
-                    &nbsp;&nbsp;목성에 착륙한 여러분은 난관에 부딪힙니다. 리듬과
+                    &nbsp;&nbsp;천왕성에 착륙한 여러분은 난관에 부딪힙니다. 리듬과
                     함께 쏟아지는 별 때문에 착륙한 자리에서 움직일 수가
                     없습니다. 리듬에 맞춰 재빨리 광선검으로 별을 갈라서 안전한
                     곳으로 이동해주세요! 무사히 이동하신 분들을 위한 상품도
