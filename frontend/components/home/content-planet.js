@@ -69,7 +69,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     - 나눠드린 팜플렛에 스티커를 5개 이상 받아 무사히 다시
                     지구로 돌아오시면 선착순으로 선물을 드립니다!
                   </p>
