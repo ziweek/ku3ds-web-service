@@ -51,7 +51,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     &nbsp;&nbsp;숨어버린 호이를 찾기 위해 떠나시는 여러분께
                     간단한 안내를 해드리고, 호이를 찾기 위한 지도가 있는
                     팜플렛과 참가자 전원에게 증명하는 기념품을 나눠드립니다.
@@ -94,7 +94,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     &nbsp;&nbsp;호이를 무사히 찾아주셨군요! 오늘 파이빌 은하계를
                     돌며 호이를 찾아주신 여러분들을 위해 기념 촬영을
                     준비했습니다. 메타버스 세계에 접속했던 오늘의 추억을
@@ -111,7 +111,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     - 오늘 체험에서 즐거웠던 활동 or 재밌었던 장면을 인스타그램
                     스토리에 @ku_3ds를 태그해서 올려주시면 폴라로이드 사진을
                     촬영해드립니다!
@@ -137,7 +137,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     &nbsp;&nbsp;다음으로 도착한 행성은 화성입니다. 화성은
                     어두컴컴하고 금방이라도 뭔가 튀어나올 것만 같아요. 어라?
                     구구가 저 멀리서 무언가를 발견한 것 같습니다! 저쪽으로
@@ -165,7 +165,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     &nbsp;&nbsp;이제 여러분은 토성에 도착했습니다. 앗! 저기
                     호이가 있는 것 같아요. 그런데 누군가에게 쫓기고 있는 것
                     같습니다. 우리가 가서 도와줘야겠어요. 어서 이 총을 받아
@@ -193,7 +193,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     &nbsp;&nbsp;천왕성에 착륙한 여러분은 난관에 부딪힙니다. 리듬과
                     함께 쏟아지는 별 때문에 착륙한 자리에서 움직일 수가
                     없습니다. 리듬에 맞춰 재빨리 광선검으로 별을 갈라서 안전한
@@ -211,7 +211,7 @@ export default function ContentPlanet() {
                   data-aos-delay="200"
                 >
                   <br />
-                  <p className="font-hsb leading-relaxed text-base">
+                  <p className="leading-relaxed text-base">
                     - 1층 & 2층의 비트세이버 부스에서 점수 챌린지에 도전하시면
                     점수 상위 8분에게 상품을 드립니다!
                   </p>
