@@ -194,8 +194,8 @@ export default function ContentPlanet() {
                 >
                   <br />
                   <p className="leading-relaxed text-base">
-                    &nbsp;&nbsp;천왕성에 착륙한 여러분은 난관에 부딪힙니다. 리듬과
-                    함께 쏟아지는 별 때문에 착륙한 자리에서 움직일 수가
+                    &nbsp;&nbsp;천왕성에 착륙한 여러분은 난관에 부딪힙니다.
+                    리듬과 함께 쏟아지는 별 때문에 착륙한 자리에서 움직일 수가
                     없습니다. 리듬에 맞춰 재빨리 광선검으로 별을 갈라서 안전한
                     곳으로 이동해주세요! 무사히 이동하신 분들을 위한 상품도
                     준비되어 있어요!
@@ -214,6 +214,67 @@ export default function ContentPlanet() {
                   <p className="leading-relaxed text-base">
                     - 1층 & 2층의 비트세이버 부스에서 점수 챌린지에 도전하시면
                     점수 상위 8분에게 상품을 드립니다!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h2 className="font-pak text-2xl font-medium title-font mb-4">
+                  토닥토닥 해왕성
+                </h2>
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  휴식 및 셀프존 - 구글 카드보드
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <br />
+                  <p className="leading-relaxed text-base">
+                    &nbsp;&nbsp;휴~ 무사히 여기까지 지나왔어요. 다음 행성으로
+                    이동하기 전에 저기 해왕성에서 잠시 쉬었다 가는 게 좋을 것
+                    같아요. 지구에서 미리 받은 구글 카드보드를 사용하여 다양한
+                    VR 체험 영상을 손쉽게 즐겨보세요!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div data-aos="fade-in" className="xl:w-1/5 md:w-1/2 p-4">
+              <div className="bg-gray-800 p-6 rounded-lg">
+                <h2 className="font-pak text-2xl font-medium title-font mb-4">
+                  우주정거장
+                </h2>
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  안내 및 퀴즈 체험부스
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <br />
+                  <p className="leading-relaxed text-base">
+                    &nbsp;&nbsp;이제 지구로 돌아갈 시간입니다. 지구로 가기 전
+                    우주정거장에 들러 연료를 충전해야 합니다. 퀴즈를 풀면
+                    우주정거장으로 들어갈 수 있어요. 우주정거장에서 연료를
+                    충전한 후 호이를 다시 지구로 데려다 주세요!
+                  </p>
+                </div>
+                <br />
+                <h3 className="font-pak tracking-widest text-indigo-400 text-lg font-medium title-font">
+                  EVENT
+                </h3>
+                <div
+                  data-aos="fade-in"
+                  data-aos-duration="1000"
+                  data-aos-delay="200"
+                >
+                  <br />
+                  <p className="leading-relaxed text-base">
+                    - 퀴즈 부스에서 게임을 진행하신 분들에게만 ‘구구 3DS 입체
+                    뱃지’를 드립니다!
                   </p>
                 </div>
               </div>
