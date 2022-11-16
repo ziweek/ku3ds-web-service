@@ -233,7 +233,7 @@ export default function ContentPlanet() {
                 >
                   <br />
                   <p className="leading-relaxed text-base">
-                    &nbsp;&nbsp;휴~ 무사히 여기까지 지나왔어요. 다음 행성으로
+                    &nbsp;&nbsp;휴~ 무사히 여기까지 지나왔어요. 다음으로
                     이동하기 전에 저기 해왕성에서 잠시 쉬었다 가는 게 좋을 것
                     같아요. 지구에서 미리 받은 구글 카드보드를 사용하여 다양한
                     VR 체험 영상을 손쉽게 즐겨보세요!
